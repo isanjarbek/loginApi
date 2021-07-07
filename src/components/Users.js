@@ -45,7 +45,6 @@ export default function Users({ users }) {
       .delete(`http://localhost:5000/api/users/${id}`)
       .then(() => {
         alert("Muvaffaqqiyatli ochirildi");
-        // window.location.reload();
       })
       .catch((err) => console.log(err));
   };
